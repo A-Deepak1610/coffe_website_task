@@ -1,0 +1,270 @@
+img{
+    /* margin-left:20px; */
+    width: 90px;
+    height: 90px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+li{
+    display: inline;
+}
+.nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    /* font-style: italic; */
+    margin-top: 5px;
+    cursor: pointer;
+    background: none;
+    border: none ;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.nav1{
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 20px;
+    color:white;
+    background-color: black;
+    border-radius: 3px;
+}
+.nav1:hover{
+    background-color: rgb(40, 39, 39);
+}
+.coffe{
+    margin-top: 30px;
+    width: 30%;
+    height: 321px;
+}
+.img1{
+    width: 100%;
+    height:100%;
+}
+.main{
+    display: flex;
+}
+.box1,.box2,.box3{
+    width: 150px;
+    height: 5px;
+    border-style: solid;
+    background-color:rgb(227, 227, 227);
+    border: none;
+}
+.box4{
+    display:flex;
+}
+.photo1:hover{
+    scale:1.01;
+}
+.photo2:hover{
+    scale:1.01;
+}
+.photo3:hover{
+    scale:1.01;
+}
+h1{
+    margin-top:7%;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+}
+.order{
+    margin-left:17%;
+}
+.box2,.box3{
+    margin-left: 20px;
+}
+.tell{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.photocontainer{
+    display: flex;
+}
+.photo1,.photo2,.photo3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    width:150px;
+    height: 180px;
+    border: solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 
+    0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+.photo2,.photo3{
+    margin-left: 20px;
+}
+.imglogo{
+    width: 100%;
+    height: 75%;
+}
+.photo1:hover,.photo2:hover,.photo3:hover{
+    cursor: pointer;
+}
+.offerbox{
+    margin-top: 50px;
+    width: 12vw;
+    height: 7px;
+    background-color:rgb(69, 69, 69);
+}
+.ouroffer{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.textbelow{
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    font-size: 30px;
+}
+.out{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+.bottom{
+    width:28%;    
+    height:20%;
+    border-color: black;
+    margin-left: 25%;
+}
+.from{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.kawa{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.work{
+    margin-left: 40px;
+    width:30%;
+    height: 40vh;
+}
+.workimg{
+    width: 100%;
+    height: 100%;
+}
+.summa{
+    color: white;
+}
+.mobilebwn{
+    width: 80px;
+    height: 80px;
+    display:none;
+}
+.radio,.radio2,.radio3{
+    /* display: none; */
+    visibility:hidden;
+}
+/* For Mobile */
+@media  screen and (max-width:768px) {
+    .top{
+        display:none;
+    }
+    .mobilebwn{
+        cursor: pointer;
+        display:block;
+    }
+    .coffe{
+        display: none;
+    }
+    .photocontainer{
+        display:block;
+    }
+    .photo2,.photo3{
+        margin-left: 0px;
+    }
+    .photo1,.photo2,.photo3{
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+        
+        width:250px;
+        height: 90px;
+        border: solid white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 
+        0px 8px 20px rgba(0, 0, 0, 0.1);
+        /* margin-right: 100px; */
+    }
+    .imglogo{
+        float:left;
+        width: 25%;
+        /* height: 100%; */
+        margin-top: 10px;
+    }
+    .untill{
+        display:inline-block;
+        
+        margin-top: 35px;
+    }
+   
+    .box1,.box2,.box3{
+        width: 70px;
+        height: 5px;
+        border-style: solid;
+        background-color:rgb(227, 227, 227);
+        border: none;
+    }
+    .from{
+        margin-left: 50px;
+    }
+    .ten{
+        margin-top: 35px;
+        margin-left: 5px;
+    }
+    .radio{
+        width:25px;
+        height:25px;
+        float: right;
+        margin-right: 20px;
+        margin-top: 32px;
+    }
+   .photo2{
+    display: flex;
+   }
+   .radio2{
+    width:25px;
+    height:25px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 32px;
+   }
+   .radio3{
+    width:25px;
+    height:25px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 32px;
+    /* border-radius: 500; */
+   }
+   .from{
+    display: none;
+   }
+   .kawa{
+    display: none;
+   } 
+   .workimg{
+    width: 280px;
+    height: 250px;
+   }
+   .bottom{
+    display: none;
+   }
+   .threebwn{
+    margin-right: 40px;
+   }
+   .radio,.radio2,.radio3{
+    visibility: visible;
+    }   
+}
